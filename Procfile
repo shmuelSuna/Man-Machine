@@ -1,0 +1,1 @@
+web: gunicorn man_machine.wsgi
