@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class ="card text-center">
+	<div class ="card-body">
+		<h1>Welcome To Ofir's and Shmuel's experiment</h1>
+		<p>The experiment will go as follows:<br></br>
+		You will play a game vs a computer, the winner is the one that has more money at the end</p>
+		<a class ="btn btn-dark" href ="{% url 'polls:index' %}">
+			Im ready, lets start!</a>
+	</div>
+</div>
+{% endblock %}
