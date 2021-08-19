@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 class Question(models.Model):
-    question_text = models.CharField(max_length=400)
+    question_text = models.CharField(max_length=4000)
     pub_date = models.DateTimeField('date published', default=None)
 
     def __str__(self):
